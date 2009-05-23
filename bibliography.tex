@@ -1,0 +1,30 @@
+\documentclass[11pt]{article}
+	\usepackage{cite}
+
+	\usepackage{fancyhdr}
+	% \usepackage{setspace}
+
+	\pagestyle{fancy}
+	\rhead{Amiel Martin}
+	\lhead{Fats Waller}
+	\setcounter{page}{9}
+	% \setstretch{1.7}
+	
+	\makeatletter
+	\renewcommand\@biblabel[1]{}
+	\makeatother
+	
+	
+\begin{document}
+
+	
+	\nocite{anecdotes}
+	\nocite{outside-insider}
+	\nocite{youtube-joint_is_jumpin}
+	\nocite{transcriptions}
+	\nocite{grove-book:waller}
+
+	\bibliography{bibliography}{}
+	\bibliographystyle{custom-plain-annote}
+\end{document}
+	
