@@ -1,0 +1,8 @@
+.DS_Store
+*.aux
+*.log
+*.bbl
+waller-blx.bib
+*.blg
+*.synctex.gz
+resources/
