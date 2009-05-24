@@ -6,3 +6,5 @@ waller-blx.bib
 *.blg
 *.synctex.gz
 resources/
+
+*.pdf
