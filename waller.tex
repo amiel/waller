@@ -36,6 +36,7 @@
 	\author{Amiel Martin}	
 	\date{\today}
 
+\usepackage{graphics}
 \begin{document}
 	\maketitle
 
@@ -67,104 +68,19 @@
 		\centering
 		\begin{minipage}{\textwidth}
 
-			\begin{lilypond}
-				% 			
-				% 			     \paper {
-				% 	left-margin = 5\cm
-				% 	% paper-width = 10\in
-				% 	system-count = #1
-				% 			     }
-				% 
-				% \layout{
-				% 	#(layout-set-staff-size 15)
-				% 	% ragged-right = ##t
-				% 	% indent = 4\cm
-				% }
-
-
-
-				scheme = \chordmode {
-					r4 bes1*2:7 f1*2 c:7
-				}
-
-
-				global =  {
-				  \key f \major
-				  \time 4/4
-				}
-
-%{				chords =  \context ChordNames {
-					C
-				}%}
-
-				right = \context Staff \relative c''\new Voice {
-%{					  s1*0^\markup {  \larger { \hspace #-3.0 Lieblich, etwas geschwind } }%}
-					
-					\partial 4
-					<d f a d>4-. |
-					<aes d f aes>16( <g g'>8 <f aes d f>16 ~ <f aes d f>4 ) <aes d f aes>16( <g g'>8. ) <f aes d f>8( <aes bes d aes'> ) |
-					r8 <g g'>( <aes bes d aes'>4 ) <g b d g>8 ( <f f'>4 ) c'8( |
-					<f, a c f>4 ) f''8( d aes16 g8 f16 d8 ) c( |
-					e f a ) <e c' e> ( ~ <e c' e> <ees ees'> <d d'>4 ) |
-						
-%{							    \appoggiatura { c16[ c' ] }%}
-					    \acciaccatura { c16[ c'] }
-
-							%{					\grace {
-													\override Stem  #'stroke-style = #"grace"
-													c16 [
-													c']
-													\revert Stem #'stroke-style
-												}%}
-
-
-       \repeat "tremolo" 8 { c,32 c'32 }
-				}
-
-
-				left = \context Staff  \relative c \new Voice{
-					<a a,>4-. |
-					< bes bes,>( <f' aes bes d> ) <f, f,>-. <bes bes,>( |
-					<f' aes bes d> ) <bes, bes,>-. <b b,>( <f' aes b d> ) |
-					<a, f' c'> <aes f' ces'> <g e' bes'> <g' bes c e>-. |
-					<f, c' a'> <g e' bes'> <a f' c'> <aes f' ces'> |
-					<g e' bes'> <g' bes c e>
-				}
-
-				\score {
-					<<
-					\context ChordNames <<
-						\override ChordName #'font-size = #-1
-						
-						\scheme
-					>>
-					
-				    \context PianoStaff <<
-							\new Staff = "treble" << 
-							    \global 
-							    \clef treble
-							    \right
-							>>
-							\new Staff = "bass" <<
-							    \global
-							    \clef bass
-							    \left
-							>>
-				    >>
-				>>
-				    \layout {
-					\context {
-					    \Score
-	%				    \override SpacingSpanner #'spacing-increment = #3
-					}
-				    }
-
-				}
-
-
-
-
-			\end{lilypond}
+			{%
+\parindent 0pt
+\ifx\preLilyPondExample \undefined
+\else
+  \expandafter\preLilyPondExample
+\fi
+\def\lilypondbook{}%
+\input de/lily-6694a659-systems.tex
+\ifx\postLilyPondExample \undefined
+\else
+  \expandafter\postLilyPondExample
+\fi
+}
 
 
 		\caption{\emph{My feelin's are hurt} (1929) transcr. B. Dobbens,  \protect\footnote{\scriptsize From \cite[]{grove-book:waller}}}
