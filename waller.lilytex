@@ -45,19 +45,19 @@
 	\maketitle
 
 	\label{sec:introduction}
-	When Fats Waller was introduced to Billy Kyle, pianist for John Kirby, Waller related a recording of theirs he had heard recently. Patting Kyle on the back he said, ``That modulation you play from A-flat to F was simply terrific! Where did you get that one from, man?'' To which Kyle replied, ``I took it off a record of yours.''\footnote{\cite[231]{anecdotes}} This story, along with many others from \emph{Jazz Anecdotes}, demonstrates a consequence of his impetuous and larger-than-life lifestyle. <<>> In order to support his outsize lifestyle in financially difficult times, Waller turned to comedy, popular music, and high volume. He was best known for his satirical lyrics and stride style at the piano -- even so, Fats Waller was a more skilled musician than he gets credit for.
+	When Fats Waller was introduced to Billy Kyle, pianist for John Kirby, Waller related a recording of theirs he had heard recently. Patting Kyle on the back he said, ``That modulation you play from A-flat to F was simply terrific! Where did you get that one from, man?'' To which Kyle replied, ``I took it off a record of yours.''\footnote{\cite[231]{anecdotes}.} This story, along with many others from \emph{Jazz Anecdotes}, demonstrates a consequence of his impetuous and larger-than-life lifestyle. <<>> In order to support his outsize lifestyle in financially difficult times, Waller turned to comedy, popular music, and high volume. He was best known for his satirical lyrics and stride style at the piano -- even so, Fats Waller was a more skilled musician than he gets credit for.
 
 	\label{sec:piano_skills}
-	Thomas Wright ``Fats'' Waller is known as ``the greatest of the Harlem jazz pianists''\footnote{\cite[2]{life}} and the only stride pianist to become famous because of it.\footnote{\cite[146]{visions}} Fats had a large range of stylistic capabilities, but by far the most popular was his stride. The term ``stride'' refers to a style of piano playing originated by James P. Johnson and probably derived from the ragtime technique of alternating between low notes and higher chords with the left hand.\footnote{for more about ``stride'', see \cite[79]{experience}} In \emph{Fats Waller: his Life \& Times}, Alyn Shipton explains that as stride diverged from ragtime, the left-hand parts became more complex and less regular, and the right-hand parts became more complex and difficult as well.\footnote{\cite[5]{life}} Fats picked up many techniques and prowess from Johnson as his mentor and by watching him perform cutting-contests (a form of musical battle in the 1920s-1930s). During that time he also picked up from Johnson ``a love of the classics, a respect for musical literacy, and (so far as the piano was concerned) a taste and delicacy of touch that allowed Fats the full dynamic range in his playing.''\footnote{\cite[8]{life}}
+	Thomas Wright ``Fats'' Waller is known as ``the greatest of the Harlem jazz pianists''\footnote{\cite[2]{life}.} and the only stride pianist to become famous because of it.\footnote{\cite[146]{visions}.} Fats had a large range of stylistic capabilities, but by far the most popular was his stride. The term ``stride'' refers to a style of piano playing originated by James P. Johnson and probably derived from the ragtime technique of alternating between low notes and higher chords with the left hand.\footnote{for more about ``stride'', see \cite[79]{experience}.} In \emph{Fats Waller: his Life \& Times}, Alyn Shipton explains that as stride diverged from ragtime, the left-hand parts became more complex and less regular, and the right-hand parts became more complex and difficult as well.\footnote{\cite[5]{life}.} Fats picked up many techniques and prowess from Johnson as his mentor and by watching him perform cutting-contests (a form of musical battle in the 1920s-1930s). During that time he also picked up from Johnson ``a love of the classics, a respect for musical literacy, and (so far as the piano was concerned) a taste and delicacy of touch that allowed Fats the full dynamic range in his playing.''\footnote{\cite[8]{life}.}
 	
-	Waller's stride technique, as he puts it, is ``all in knowing what to put on the right beat''\footnote{quote from \emph{Metronome} 52:2 (February 1936): 33 found in \cite{transcriptions}}; a steady pulsating bass in the left hand, embellishments in the right hand that are sparse and subservient to the melody, and overall, expression through rising and falling with sudden contrasts to build climaxes.
+	Waller's stride technique, as he puts it, is ``all in knowing what to put on the right beat''\footnote{quote from \emph{Metronome} 52:2 (February 1936): 33 found in \cite{transcriptions}.}; a steady pulsating bass in the left hand, embellishments in the right hand that are sparse and subservient to the melody, and overall, expression through rising and falling with sudden contrasts to build climaxes.
 	
 	
 		\begin{figure}[ht]
 			\centering
 			\begin{minipage}{\textwidth}
 				
-				\caption{excerpt from \emph{My feelin's are hurt} (1929) transcr. B. Dobbens \protect\footnote{\scriptsize From \cite[]{grove-book:waller}}}
+				\caption{excerpt from \emph{My feelin's are hurt} (1929) transcr. B. Dobbens.\protect\footnote{\scriptsize From \cite[]{grove-book:waller}.}}
 				\label{fig:hurt}
 				
 
@@ -86,11 +86,7 @@
 					  \key f \major
 					  \time 4/4
 					}
-	
-	%{				chords =  \context ChordNames {
-						C
-					}%}
-	
+
 					right = \context Staff \relative c''\new Voice {
 	%{					  s1*0^\markup {  \larger { \hspace #-3.0 Lieblich, etwas geschwind } }%}
 						
@@ -149,7 +145,7 @@
 					    \layout {
 						\context {
 						    \Score
-		%				    \override SpacingSpanner #'spacing-increment = #3
+%{				    			\override SpacingSpanner #'spacing-increment = #3%}
 						}
 					    }
 	
@@ -164,57 +160,58 @@
 			\end{minipage}
 		\end{figure}
 
-	Fats was exceptional at improvising over classic stride. He also augmented the standard 2 beat stride rhythm with occasional three-beat cross-rhythms. These rhythms are exemplified in Example \ref{fig:hurt} along with many of his other standard style traits, such as his tasteful variety of tone and texture (a skill he probably developed as an organ player), and the chromatic alterations and added inner pitches to octaves and 10\textsuperscript{ths} in the left hand that were undoubtedly a large influence to Art Tatum (another stride pianist, and one of the few who could rival Waller's mastery in technique).\footnote{\cite[40]{grove-book:waller}} Art Tatum wasn't alone in looking up to Fats Waller. His creative style influenced other notable artists such as Count Basie and Dizzy Gillespie.\footnote{Waller's friendship and influence on both Count Basie and Art Tatum is mentioned in many sources. How he influenced Gillespie came from an interview with Gillespie on the CBS network program ``60 Minutes'' (which I discovered in \citetitle{transcriptions} by \cite{transcriptions}).}
+	Fats was exceptional at improvising over classic stride. He also augmented the standard 2 beat stride rhythm with occasional three-beat cross-rhythms. These rhythms are exemplified in Example \ref{fig:hurt} along with many of his other standard style traits, such as his tasteful variety of tone and texture (a skill he probably developed as an organ player), and the chromatic alterations and added inner pitches to octaves and 10\textsuperscript{ths} in the left hand that were undoubtedly a large influence to Art Tatum (another stride pianist, and one of the few who could rival Waller's mastery in technique).\footnote{\cite[40]{grove-book:waller}.} Art Tatum wasn't alone in looking up to Fats Waller. His creative style influenced other notable artists such as Count Basie and Dizzy Gillespie.\footnote{Waller's friendship and influence on both Count Basie and Art Tatum is mentioned in many sources. How he influenced Gillespie came from an interview with Gillespie on the CBS network program ``60 Minutes'' (which I discovered in \citetitle{transcriptions} by \cite{transcriptions}).}
 
 
 
 	\label{sec:organ_and_classical}
-	Although he was truly gifted at the piano, the full breadth of Waller's skill was with the organ. He holds the title as the first significant organist in jazz.\footnote{\cite[40]{grove-book:waller}} The Waller family acquired their first piano when Fats was merely 6 and he showed interest in it immediately.\footnote{See \cite{transcriptions} and \cite{life}.} He also learned to read music at an early age. His interest in the organ could be attributed to the fact that his father was a clergyman. However, to his fathers dislike, early in his career, Waller took his skills to the theater. He accompanied silent movies at the Lafayette and Lincoln theaters on the pipe organ and also played for vaudeville shows. While most of the music of Fats Waller was satirical, he did have a serious side. It was spiritual music, which he played beautifully on the organ and was the only music he played without mocking it.\footnote{\cite[8]{outside-insider}} Francis Newton also explains his work on the organ in \emph{The Jazz Scene}:
+	Although he was truly gifted at the piano, the full breadth of Waller's skill was with the organ. He holds the title as the first significant organist in jazz.\footnote{\cite[40]{grove-book:waller}.} The Waller family acquired their first piano when Fats was merely 6 and he showed interest in it immediately.\footnote{See \cite{transcriptions} and \cite{life}.} He also learned to read music at an early age. His interest in the organ could be attributed to the fact that his father was a clergyman. However, to his fathers dislike, early in his career, Waller took his skills to the theater. He accompanied silent movies at the Lafayette and Lincoln theaters on the pipe organ and also played for vaudeville shows. While most of the music of Fats Waller was satirical, he did have a serious side. It was spiritual music, which he played beautifully on the organ and was the only music he played without mocking it.\footnote{\cite[8]{outside-insider}.} Francis Newton also explains his work on the organ in \emph{The Jazz Scene}:
 	
 	\begin{quote}
-		\ldots Fats Waller, a musician of sound classical training and superb technique, whose favourite instrument was the organ, and whose main ambition was to excel as an interpreter of J.S. Bach's ecclesiastical works, was never given the chance to record in this field.\footnote{\cite[209]{jazz_scene}}
+		\ldots Fats Waller, a musician of sound classical training and superb technique, whose favourite instrument was the organ, and whose main ambition was to excel as an interpreter of J.S. Bach's ecclesiastical works, was never given the chance to record in this field.\footnote{\cite[209]{jazz_scene}.}
 	\end{quote}
 	
-	Although not not as publicly known, Fats also played and studied the music of other great classical and romantic European composers. There is no recorded evidence of Waller playing European piano music, but there is evidence in the form of an interview with Andy Razaf, a longtime collaborator with Waller\footnote{Andy wrote lyrics for some of Waller's most popular songs such as \emph{Ain't Misbehavin'}}: ``He knew Brahms, Liszt and Beethoven as well as he knew jazz, and often discussed and analyzed their work.''\footnote{another quote from \emph{Metronome} (Andy Razaf, ``Fats Waller,'' \emph{Metronome} 60:1 (Janurary 1944): 16) found in \citetitle{transcriptions} by \cite{transcriptions}}
+	Although not not as publicly known, Fats also played and studied the music of other great classical and romantic European composers. There is no recorded evidence of Waller playing European piano music, but there is evidence in the form of an interview with Andy Razaf, a longtime collaborator with Waller\footnote{Andy wrote lyrics for some of Waller's most popular songs such as \emph{Ain't Misbehavin'}.}: ``He knew Brahms, Liszt and Beethoven as well as he knew jazz, and often discussed and analyzed their work.''\footnote{another quote from \emph{Metronome} (Andy Razaf, ``Fats Waller,'' \emph{Metronome} 60:1 (Janurary 1944): 16) found in \citetitle{transcriptions} by \cite{transcriptions}.}
 	
-	Fats Waller's grasp of classical music is apparent in his melodic ??? and his proficiency with harmony and chordal structure. In 1941 he recorded a rendition of \emph{Honeysuckle Rose} that uniquely illustrates is familiarity with classical music.\footnote{\cite{transcriptions}} This recording, entitled ``Honeysuckle Rose, \`a la Bach, Beethoven, Brahms, and Waller'' is compared with J.S. Bach's Concerto in D Minor in Example \ref{fig:3bs}
-	
-	
-	
+	Fats Waller's grasp of classical music is apparent in his melodic ??? and his proficiency with harmony and chordal structure. In 1941 he recorded a rendition of \emph{Honeysuckle Rose} that uniquely illustrates is familiarity with classical music.\footnote{\cite{transcriptions}} In this recording, entitled ``Honeysuckle Rose, \`a la Bach, Beethoven, Brahms, and Waller,'' he reverses the standard of reworking classics into jazz by reworking one of his own pieces to a classical style. He displays a wide variety of styles that \citeauthor{transcriptions} compares to specific passages from J.S. Bach and Brahms. Example \ref{fig:3bs} summarizes one of these comparisons.\footnote{For more, see \cite{transcriptions}.}
+
 		\begin{figure}[ht]
 			\centering
 					\begin{minipage}{\textwidth}
 				
-				\caption{melodic comparison between Waller and J.S. Bach \protect\footnote{\scriptsize transcriptions from \cite[]{transcriptions}}}
+				\caption{melodic comparison between Waller and J.S. Bach \protect\footnote{\scriptsize these transcriptions and similar comparisons are from \citeauthor{transcriptions}, see n. 7}}
 				\label{fig:3bs}
 				
-				\subfigure[woot]{
-					
+				\subfigure[Fats Waller: \emph{Honeysuckle Rose, \`a la Bach, Beethoven, Brahms, and Waller} mm. 43--44]{
 
 				\begin{lilypond}
 
 	
 					global =  {
 					  \key f \major
-						\time 17/16
-						s1*16
+%{						\time 17/16%}
+%{						s1 ~ s16%}
 						\time 4/4
 					}
-	
-	%{				chords =  \context ChordNames {
-						C
-					}%}
+
 	
 					right = \context Staff \relative c''''\new Voice {
+						
 
-						c16->[ a c, g']  c->[ a c, g']  c->[ a c, g']  c->[ a c, g' c] |
-						a->[ c, g'-> c]  a->[ c, g'-> c]  a->[ c, g'-> c]  a->[ c, g'-> c] |
-
+						#(set-octavation 1)
+%{						c16->[ a c, g']  c->[ a c, g']  c->[ a c, g']  c->[ a c, g' c] |%}
+						a16->[ ^\markup { \tiny { \italic { swung 16ths } }}
+							c, g'-> c]  a->[ c, g'-> c]  a->[ c, g'-> c]  a->[ c, g'-> c] |
+						g->[ c, f8->] g16->[ c, f-> c'] g->[ c, f-> c'] g->[ c, f-> c'] |
+						#(set-octavation 0)
 					}
 	
 	
 					left = \context Staff  \relative c \new Voice{
-
+%{						<< { r8 <c' e g>4. ~ <c e g>2  r16 } \\ { bes1 r16 } >> |%}
+							<c, bes' e>4 <d gis b f'> <e bes' c g'>2 |
+							<f c' a'>4 <g e' bes'> <a f' c'> <g e' bes'> |
+							
 					}
 	
 					\score {
@@ -232,9 +229,11 @@
 								>>
 					    >>
 					    \layout {
+%{								#(layout-set-staff-size 15)%}
+						
 						\context {
 						    \Score
-		%				    \override SpacingSpanner #'spacing-increment = #3
+%{				    \override SpacingSpanner #'spacing-increment = #3%}
 						}
 					    }
 	
@@ -244,12 +243,12 @@
 	
 	
 				\end{lilypond}
-				
+
 				}
 
 
 
-							\subfigure[another woot]{
+							\subfigure[J.S. bach: Concerto in D Minor, BWV 1052, first movement, mm. 28--29]{
 
 
 							\begin{lilypond}
@@ -257,24 +256,19 @@
 
 								global =  {
 								  \key f \major
-									\time 17/16
+									\time 2/2
 								}
-
-				%{				chords =  \context ChordNames {
-									C
-								}%}
 
 								right = \context Staff \relative c''\new Voice {
-
-
-									<d f a d>4-. |
-									<aes d f aes>16( <g g'>8 <f aes d f>16 ~ <f aes d f>4 ) <aes d f aes>16( <g g'>8. ) <f aes d f>8( <aes bes d aes'> ) | d4 d d d d d d
+									<< { a'16[ a, c e] } \\ { <c e>16 } >> a'[ a, c e] a[ a, cis e] a[ a, cis e] |
+									a[ a, d f] a[ a, d f] a[ a, c fis] a[ fis c a] |
 
 								}
 
 
-								left = \context Staff  \relative c \new Voice{
-
+								left = \context Staff  \relative c' \new Voice{
+									r8 a a a, g g' g g, |
+									f f' f f, fis fis' fis fis,
 								}
 
 								\score {
@@ -292,6 +286,8 @@
 											>>
 								    >>
 								    \layout {
+%{											#(layout-set-staff-size 15)%}
+									
 									\context {
 									    \Score
 					%				    \override SpacingSpanner #'spacing-increment = #3
@@ -312,7 +308,7 @@
 	
 
 	\label{sec:charisma}
-	Probably his most lucrative skill, however, was bridging the gap between the artist and the public and along with Louis Armstrong, was one of the first to do so.\footnote{\cite[3]{life}} According to Morroe Berger, some jazz artists at the time such as Miles Davis and Charlie Mingus made their audience ``feel inferior to the music''.\footnote{\cite[16]{outside-insider}} Even though the general public may not have understood his technical genius, Fats gained popularity with humor and charisma. It is easy to see how he accomplished this by watching him play. His friendly voice and snide remarks are enough to entertain. However, with his expressive eyebrows, jumpy eyes, and dynamic jaw, his expressions could easily entertain the deaf. His remarkable piano playing is almost inconspicuous behind his expressive personality.
+	Probably his most lucrative skill, however, was bridging the gap between the artist and the public and along with Louis Armstrong, was one of the first to do so.\footnote{\cite[3]{life}} According to Morroe Berger, some jazz artists at the time such as Miles Davis and Charlie Mingus made their audience ``feel inferior to the music''.\footnote{\cite[16]{outside-insider}.} Even though the general public may not have understood his technical genius, Fats gained popularity with humor and charisma. It is easy to see how he accomplished this by watching him play. His friendly voice and snide remarks are enough to entertain. However, with his expressive eyebrows, jumpy eyes, and dynamic jaw, his expressions could easily entertain the deaf. His remarkable piano playing is almost inconspicuous behind his expressive personality.
 	
 	* \footnote{\cite{youtube-joint_is_jumpin}}
 	
