@@ -29,17 +29,18 @@
 	\def\fatslogan{the skills of Fats Waller}
 
 
-
-
 	\pagestyle{fancy}
 	\rhead{Amiel Martin}
 	\lhead{\fattitle{}: \fatslogan}
 
+	\usepackage{titlepic}
 
 	\title{\fattitle \\
-	\large \fatslogan}
+		\large \fatslogan}
 	\author{Amiel Martin}	
-	\date{\today}
+	\date{May 21, 2009}
+	\titlepic{\includegraphics{fats1.png}}
+	
 
 \begin{document}
 	\maketitle
@@ -315,7 +316,8 @@
 	Through these examples, it is quite clear that when Waller subtitles his piece ``\`a la Bach, Beethoven, Brahms, and Waller'', he knows what he is talking about.
 
 	\label{sec:thesis}
-	How was it then, that such a skilled artist is known for his Tin Pan Alley style recordings and not for his superb mastery of the piano? Fats Waller made sure that he and those around him enjoyed the moment. As quoted by \citeauthor{jazz_scene}: ``He earned millions and threw them away: `he kept broke because he was always balling and having a good time and just didn't care'.''\footnote{\cite[208]{jazz_scene}} 
+	How was it then, that such a skilled artist is known for his Tin Pan Alley style recordings and not for his superb mastery of the piano? Fats Waller made sure that he and those around him enjoyed the moment. As quoted by \citeauthor{jazz_scene}: ``He earned millions and threw them away: `he kept broke because he was always balling and having a good time and just didn't care'.''\footnote{\cite[208]{jazz_scene}}
+	In order to 
 
 
 	\label{sec:charisma}
